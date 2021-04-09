@@ -19,7 +19,6 @@ class AuthorManagementTest extends TestCase
      */
     public function an_author_can_be_created()
     {
-       $this->withoutExceptionHandling();
 
         $this->post('/api/authors', [
             'name' => 'James',
@@ -32,5 +31,19 @@ class AuthorManagementTest extends TestCase
         $this->assertInstanceOf(Carbon::class, $author->first()->dob);
         $this->assertEquals('2021/14/05', $author->first()->dob->format('Y/d/m'));
         // $response->assertRedirect($author->path());
+    }
+
+    /**
+     * A basic unit test example.
+     * @test
+     * @return void
+     */
+    public function only_name_is_required_to_create_an_author()
+    {
+        Author::firstOrcreate([
+            'name' => 'James Author'
+        ]);
+
+        $this->assertCount(1, Author::all());
     }
 }

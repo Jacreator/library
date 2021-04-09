@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use Tests\TestCase;
 use App\Models\Book;
+use App\Models\Author;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
@@ -21,10 +22,7 @@ class BookManagementTest extends TestCase
     {
         // $this->withoutExceptionHandling();
 
-        $response = $this->post('/api/books', [
-            'title' => 'Cool book title',
-            'author' => 'James'
-        ]);
+        $response = $this->post('/api/books', $this->payLoad());
 
         $this->assertCount(1, Book::all());
         $response->assertRedirect(Book::first()->path());
@@ -40,10 +38,7 @@ class BookManagementTest extends TestCase
     public function a_book_title_is_required()
     {
 
-        $response = $this->post('/api/books', [
-            'title' => '',
-            'author' => 'James'
-        ]);
+        $response = $this->post('/api/books', array_merge($this->payLoad(), ['title' => '']));
 
         $response->assertSessionHasErrors('title');
     }
@@ -57,12 +52,9 @@ class BookManagementTest extends TestCase
     public function a_book_author_is_required()
     {
 
-        $response = $this->post('/api/books', [
-            'title' => 'Coool book title',
-            'author' => ''
-        ]);
+        $response = $this->post('/api/books', array_merge($this->payLoad(), ['author_id' => '']));
 
-        $response->assertSessionHasErrors('author');
+        $response->assertSessionHasErrors('author_id');
     }
 
     /**
@@ -75,21 +67,19 @@ class BookManagementTest extends TestCase
     {
 
         // store book for update
-        $this->post('/api/books', [
-            'title' => 'Coool book title',
-            'author' => 'James'
-        ]);
+        $this->post('/api/books', $this->payLoad());
 
         // get book id
         $book = Book::first();
+        $author = Author::first();
 
         $response = $this->patch($book->path(), [
             'title' => 'New Title',
-            'author' => 'New Author'
+            'author_id' => 'New Author'
         ]);
 
         $this->assertEquals('New Title', Book::first()->title);
-        $this->assertEquals('New Author', Book::first()->author);
+        $this->assertEquals($author->id, Book::first()->author_id);
 
         $response->assertRedirect($book->fresh()->path());
     }
@@ -104,10 +94,7 @@ class BookManagementTest extends TestCase
     {
 
         // store book for update
-        $this->post('/api/books', [
-            'title' => 'Coool book title',
-            'author' => 'James'
-        ]);
+        $this->post('/api/books', $this->payLoad());
 
         // check if book is added
         $this->assertCount(1, Book::all());
@@ -115,13 +102,53 @@ class BookManagementTest extends TestCase
         // get book id
         $book = Book::first();
 
-        $response = $this->delete($book->path(), [
-            'title' => 'New Title',
-            'author' => 'New Author'
-        ]);
+        $response = $this->delete($book->path(), $this->payLoad());
 
         // check if book is deleted
         $this->assertCount(0, Book::all());
         $response->assertRedirect('/books');
+    }
+
+    /**
+     * A basic feature test example for update.
+     *
+     * @test
+     * @return void
+     */
+    public function a_new_author_is_auto_added()
+    {
+        // store book for update
+        $this->post('/api/books', $this->payLoad());
+
+        // get book and Author
+        $book = Book::first();
+        $author = Author::first();
+
+        // dd($book->author_id);
+        $this->assertEquals($author->id, $book->author_id);
+        $this->assertCount(1, Author::all());
+    }
+
+    /**
+     * A basic unit test for checking author id on books.
+     * @test
+     * @return void
+     */
+    public function an_author_id_is_recorded()
+    {
+        Book::create([
+            'title' => 'Cool title',
+            'author_id' => 1
+        ]);
+
+        $this->assertCount(1, Book::all());
+    }
+
+    private function payLoad()
+    {
+        return [
+            'title' => 'Coool book title',
+            'author_id' => 'James'
+        ];
     }
 }
