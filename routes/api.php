@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Book\BookController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,4 +18,12 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
+// book route
 Route::ApiResource('books', 'Book\BookController');
+
+// author route
+Route::ApiResource('authors', 'Author\AuthorController');
+// Adding slug to url
+// Route::post('/books', [BookController::class, 'store']);
+// Route::patch('/books/{book}-{slug}', [BookController::class, 'update']);
+// Route::delete('/books/{book}-{slug}', [BookController::class, 'destroy']);

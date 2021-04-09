@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers\Book;
+namespace App\Http\Controllers\Author;
 
-use App\Models\Book;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Author;
+use Illuminate\Http\Request;
 
-class BookController extends Controller
+class AuthorController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -25,18 +25,18 @@ class BookController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {        
-        $book = Book::create($this->validateRequest($request));
-        return redirect($book->path());
+    {
+        $author = Author::create($this->validateRequest($request));
+        return redirect($author->path());
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Author  $author
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Author $author)
     {
         //
     }
@@ -45,46 +45,30 @@ class BookController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Author  $author
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Book $book)
+    public function update(Request $request, Author $author)
     {
-
-        if ($request->has('title') && !empty($request->title)) {
-            $book->title = $request->title;
-        }
-
-        if ($request->has('author') && !empty($request->author)) {
-            $book->author = $request->author;
-        }
-
-        $book->save();
-
-        return redirect($book->path());
+        //
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Author  $author
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Book $book)
+    public function destroy(Author $author)
     {
-        $book->delete();
-        return redirect('/books');
+        //
     }
 
-    /**
-    *
-    * @return mixed
-    */
     protected function validateRequest(Request $request)
     {
         return $request->validate([
-            'title' => 'required',
-            'author' => 'required'
+            'name' => 'required',
+            'dob' => 'required'
         ]);
     }
 }
