@@ -14,12 +14,12 @@ class AuthorTest extends TestCase
      * @test
      * @return void
      */
-    public function only_name_is_required_to_create_an_author()
-    {
-        Author::firstOrcreate([
-        	'name' => 'James Author'
-        ]);
+    // public function only_name_is_required_to_create_an_author()
+    // {
+    //     Author::firstOrcreate([
+    //     	'name' => 'James Author'
+    //     ]);
 
-        $this->assertCount(1, Author::all());
-    }
+    //     $this->assertCount(1, Author::all());
+    // }
 }
