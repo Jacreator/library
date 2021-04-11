@@ -20,10 +20,7 @@ class AuthorManagementTest extends TestCase
     public function an_author_can_be_created()
     {
 
-        $this->post('/api/authors', [
-            'name' => 'James',
-            'dob' => '05/14/2021'
-        ]);
+        $this->post('/api/authors', $this->payload());
 
         $author = Author::all();
 
@@ -45,5 +42,41 @@ class AuthorManagementTest extends TestCase
         ]);
 
         $this->assertCount(1, Author::all());
+    }
+
+    private function payload()
+    {
+        return [
+            'name' => 'James',
+            'dob' => '05/14/2021'
+        ];
+    }
+
+    /**
+     * A basic feature test example.
+     * 
+     * @test
+     * @return void
+     */
+    public function an_authors_name_is_required()
+    {
+
+        $response = $this->post('api/authors', array_merge($this->payload(), ['name'=> '']));
+
+        $response->assertSessionHasErrors('name');
+    }
+
+    /**
+     * A basic feature test example.
+     * 
+     * @test
+     * @return void
+     */
+    public function an_authors_dob_is_required()
+    {
+
+        $response = $this->post('api/authors', array_merge($this->payload(), ['dob'=> '']));
+
+        $response->assertSessionHasErrors('dob');
     }
 }
