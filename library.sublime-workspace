@@ -1,0 +1,814 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"F",
+				"Foundation〔namespace〕"
+			],
+			[
+				"D",
+				"DB_DATABASE"
+			],
+			[
+				"show",
+				"show"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"po",
+				"post"
+			],
+			[
+				"Post",
+				"Post\\PostController"
+			],
+			[
+				"ro",
+				"router"
+			],
+			[
+				"post",
+				"postOwner"
+			],
+			[
+				"s",
+				"sluggable〔function〕"
+			],
+			[
+				"req",
+				"required"
+			],
+			[
+				"un",
+				"unsigned"
+			],
+			[
+				"flu",
+				"flushEventListeners"
+			],
+			[
+				"wi",
+				"withErrors〔function〕"
+			],
+			[
+				"str_r",
+				"str_replace〔function〕"
+			],
+			[
+				"trans",
+				"$trnasformField〔variable〕"
+			],
+			[
+				"transfor",
+				"transformedError"
+			],
+			[
+				"tran",
+				"$transformerInput〔variable〕"
+			],
+			[
+				"se",
+				"seller"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"buy",
+				"buyer"
+			],
+			[
+				"sell",
+				"seller_id"
+			],
+			[
+				"cat",
+				"$category〔variable〕"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"que",
+				"$queryString〔variable〕"
+			],
+			[
+				"cahec",
+				"$cahceDiv〔variable〕"
+			],
+			[
+				"per",
+				"perPage"
+			],
+			[
+				"ma",
+				"max"
+			],
+			[
+				"pa",
+				"paginateCollection"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"uc",
+				"ucwords"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"if",
+				"ifelse\t<?php if (…) ?> … <?php else ?> … <?php endif ?>"
+			],
+			[
+				"proje",
+				"projectRes"
+			],
+			[
+				"else",
+				"else〔keyword〕"
+			],
+			[
+				"ea",
+				"$emailAddress〔variable〕"
+			],
+			[
+				"f",
+				"feedback"
+			],
+			[
+				"email",
+				"$emailAddress〔variable〕"
+			],
+			[
+				"emai",
+				"$emailAddress〔variable〕"
+			],
+			[
+				"em",
+				"$emailAddress〔variable〕"
+			],
+			[
+				"uns",
+				"unset〔keyword〕"
+			],
+			[
+				"e",
+				"$emailAddress〔variable〕"
+			],
+			[
+				"print_",
+				"print_r〔function〕"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"App",
+				"Application"
+			],
+			[
+				"at",
+				"$attribute〔variable〕"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"or",
+				"origianlAttribute"
+			],
+			[
+				"iss",
+				"isset〔function〕"
+			],
+			[
+				"sort",
+				"sortData"
+			],
+			[
+				"colle",
+				"$collection〔variable〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"trna",
+				"transformData"
+			],
+			[
+				"transa",
+				"$transformer〔variable〕"
+			],
+			[
+				"trasa",
+				"transformData"
+			],
+			[
+				"coll",
+				"$collection〔variable〕"
+			],
+			[
+				"tra",
+				"$transaformation〔variable〕"
+			],
+			[
+				"tr",
+				"transformers"
+			],
+			[
+				"T",
+				"Transformers〔namespace〕"
+			],
+			[
+				"M",
+				"Models〔namespace〕"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"ment",
+				"menu-item"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"category",
+				"category_id"
+			],
+			[
+				"category_",
+				"category_product"
+			],
+			[
+				"C",
+				"CategoryModle"
+			],
+			[
+				"Trans",
+				"TransactionModel〔namespace〕"
+			],
+			[
+				"mt",
+				"mt_rand"
+			],
+			[
+				"Ca",
+				"$CategoryQuantity〔variable〕"
+			],
+			[
+				"use",
+				"$userQuantity〔variable〕"
+			],
+			[
+				"rand",
+				"randomElement"
+			],
+			[
+				"Un",
+				"UNAVILABLE_PRODUCT〔constant〕"
+			],
+			[
+				"ver",
+				"verified"
+			],
+			[
+				"fa",
+				"faker"
+			],
+			[
+				"n",
+				"nullable"
+			],
+			[
+				"U",
+				"User"
+			],
+			[
+				"S",
+				"Support〔namespace〕"
+			],
+			[
+				"belo",
+				"belongsTo〔function〕"
+			],
+			[
+				"class",
+				"class"
+			],
+			[
+				"t",
+				"TransactionModel〔class〕"
+			],
+			[
+				"veri",
+				"verification_token"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "routes/api.php",
+			"settings":
+			{
+				"buffer_size": 1214,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/CheckIn/CheckInController.php",
+			"settings":
+			{
+				"buffer_size": 1317,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tests/Feature/BookCheckOutTest.php",
+			"settings":
+			{
+				"buffer_size": 3120,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"stat",
+				"git: status"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sta",
+				"git: status"
+			],
+			[
+				"status",
+				"git: status"
+			],
+			[
+				"clone",
+				"git: clone"
+			],
+			[
+				"bran",
+				"git: branch"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Bookmarks: Select All"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Severs/Xamp/htdocs/Laravel/library",
+		"/C/Severs/Xamp/htdocs/Laravel/library/app",
+		"/C/Severs/Xamp/htdocs/Laravel/library/app/Http",
+		"/C/Severs/Xamp/htdocs/Laravel/library/app/Http/Controllers",
+		"/C/Severs/Xamp/htdocs/Laravel/library/app/Http/Controllers/CheckIn",
+		"/C/Severs/Xamp/htdocs/Laravel/library/routes",
+		"/C/Severs/Xamp/htdocs/Laravel/library/tests",
+		"/C/Severs/Xamp/htdocs/Laravel/library/tests/Feature"
+	],
+	"file_history":
+	[
+		"/C/Severs/Xamp/htdocs/Laravel/library/vendor/laravel/framework/src/Illuminate/Support/Facades/Route.php",
+		"/C/Severs/Xamp/htdocs/Laravel/library/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"/C/Severs/Xamp/htdocs/Laravel/library/tests/Feature/BookReservationTest.php",
+		"/C/Severs/Xamp/htdocs/Laravel/library/phpunit.xml",
+		"/C/Severs/Xamp/htdocs/Laravel/library/.env",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Seller/SellerBuyerController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Seller/SellerController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Product/ProductCategoryController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Category/CategoryController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Seller/SellerTransactionController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Product/ProductBuyerController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Product/ProductTransactionController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Category/CategoryTransactionController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Category/CategorySellerController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Category/CategoryBuyerController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Buyer/BuyerCategoryController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Buyer/BuyerController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Buyer/BuyerProductController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Buyer/BuyerSellerController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Buyer/BuyerTransactionController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/User/UserController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/config/app.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Models/User.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Providers/AuthServiceProvider.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Kernel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Category/CategoryProductController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Seller/SellerCategoryController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Transaction/TransactionCategoryController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Product/ProductController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/routes/api.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/ApiController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/config/auth.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/views/welcome.blade.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Models/User.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Http/Controllers/Post/PostController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/js/Index.vue",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/js/auth.js",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/js/router.js",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/js/pages/Home.vue",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/js/pages/Register.vue",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/js/pages/Login.vue",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/js/pages/user/Dashboard.vue",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/js/pages/admin/Dashboard.vue",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/resources/js/app.js",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Models/Post.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/.env",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Traits/ApiResponser.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Http/Controllers/Post/UserPostController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/routes/api.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Exceptions/Handler.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Http/Controllers/Auth/AuthController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Transformers/Post/PostTransformer.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/database/factories/UserFactory.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Http/Controllers/User/UserController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/database/migrations/2021_04_07_075836_create_posts_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/config/filesystems.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/public/images/.gitignore",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/vendor/tymon/jwt-auth/src/JWTAuth.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/config/app.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/config/auth.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/routes/web.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Transformers/User/UserTransformer.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/database/seeds/DatabaseSeeder.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Http/Kernel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Http/Middleware/SignatureMiddleware.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Traits/ApiResponse.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Http/Controllers/ApiController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Http/Controllers/Auth/LoginController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/Http/Controllers/AuthController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/Laravel_blog/app/User.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/vendor/laravel/framework/src/Illuminate/Routing/RouteBinding.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Middleware/TransformInput.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Traits/ApiResponser.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Transformers/Category/CategoryTransformer.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Transformers/Product/ProductTransformer.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Transformers/Transaction/TransactionTransformer.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Transformers/Buyer/BuyerTransformer.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Transformers/User/UserTransformer.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Product/ProductBuyerTransactionController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Http/Controllers/Seller/SellerProductController.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Transformers/Seller/SellerTransformer.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/vendor/laravel/framework/src/Illuminate/Pagination/LengthAwarePaginator.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php",
+		"/C/Severs/Xamp/htdocs/kit/assets/css/custom-style.css",
+		"/C/Severs/Xamp/htdocs/kit/app/database/connect.php",
+		"/C/Severs/Xamp/htdocs/kit/project.php",
+		"/C/Severs/Xamp/htdocs/kit/contact.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Models/Product.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Models/Transaction.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Models/Category.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Providers/AppServiceProvider.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Models/Seller.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/Models/Buyer.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RestAPI/app/User.php",
+		"/C/Severs/Xamp/php/PEAR/adodb/tests/testdatabases.inc.php",
+		"/C/Program Files/Sublime x64/Data/Packages/User/42-headers.sublime-settings",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/User.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/categoryProductModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_28_090501_category_product_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_28_064408_create_category_product_models_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_28_085616_category_product_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Model/categoryProductModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_27_154823_category_product_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/CategoryModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/ProductModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/TransactionModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_27_082511_create_category_models_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_27_082645_create_transaction_models_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2021_02_27_082625_create_product_models_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/database/factories/UserFactory.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/SellerModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Models/BuyerModel.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/app/Providers/AppServiceProvider.php",
+		"/C/Severs/Xamp/htdocs/Laravel/RESTFULAPI_CLASS/.env",
+		"/C/Program Files/Sublime x64/Data/Packages/User/PHP Companion.sublime-settings",
+		"/C/Program Files/Sublime x64/Data/Packages/PHP Companion/PHP Companion.sublime-settings"
+	],
+	"find":
+	{
+		"height": 172.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "routes/api.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1140,
+								1140
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 317.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Controllers/CheckIn/CheckInController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								602,
+								602
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tests/Feature/BookCheckOutTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2918,
+								2918
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1542.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 172.0
+	},
+	"input":
+	{
+		"height": 172.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 132.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 216.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.show_commit_info":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "",
+	"project": "library.sublime-project",
+	"replace":
+	{
+		"height": 340.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"facades/ro",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Route.php"
+			],
+			[
+				"facades/Au",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Auth.php"
+			],
+			[
+				"Routing/con",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php"
+			],
+			[
+				"routing Router",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			],
+			[
+				"Ruter",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			],
+			[
+				"routing Rout",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteBinding.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 323.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

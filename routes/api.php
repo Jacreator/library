@@ -23,7 +23,17 @@ Route::ApiResource('books', 'Book\BookController');
 
 // author route
 Route::ApiResource('authors', 'Author\AuthorController');
+
 // Adding slug to url
 // Route::post('/books', [BookController::class, 'store']);
 // Route::patch('/books/{book}-{slug}', [BookController::class, 'update']);
 // Route::delete('/books/{book}-{slug}', [BookController::class, 'destroy']);
+
+// checkout route
+Route::post('checkout/{book}', 'CheckOut\CheckOutController@store');
+
+// checkIn route
+Route::post('checkin/{book}', 'CheckIN\CheckInController@store');
+
+// login route
+// Route::post('login', 'Login\LoginController@index');
